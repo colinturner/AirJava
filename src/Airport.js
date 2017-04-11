@@ -1,7 +1,6 @@
 var Airport = function(capacity = DEFAULT_CAPACITY) {
+  this.capacity = capacity
 };
-var DEFAULT_CAPACITY = 5;
+const DEFAULT_CAPACITY = 5;
 
-Airport.prototype.capacity = function() {
-  return DEFAULT_CAPACITY;
-};
+

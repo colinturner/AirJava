@@ -1,0 +1,2 @@
+var Plane = function() {};
+
